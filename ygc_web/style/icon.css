@@ -1,0 +1,37 @@
+@keyframes cuIcon-spin {
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0);
+	}
+
+	100% {
+		-webkit-transform: rotate(359deg);
+		transform: rotate(359deg);
+	}
+}
+
+
+@font-face {
+  font-family: 'leedaisen';  /* project id 1394441 */
+  src: url('//at.alicdn.com/t/font_1394441_lcmdbd6ymh.eot');
+  src: url('//at.alicdn.com/t/font_1394441_lcmdbd6ymh.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1394441_lcmdbd6ymh.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1394441_lcmdbd6ymh.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1394441_lcmdbd6ymh.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1394441_lcmdbd6ymh.svg#iconfont') format('svg');
+}
+[class*="icon-"] {
+	font-family: "leedaisen";
+	font-size: inherit;
+	font-style: normal;
+}
+
+
+.icon-like:before {
+  content: "\e64d";
+}
+
+.icon-hate:before {
+  content: "\e867";
+}
+

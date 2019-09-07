@@ -1,0 +1,1 @@
+<view class="content"><text>{{"Result on"+foodname}}</text><block wx:for="{{shopList}}" wx:for-item="item" wx:for-index="__i0__"><view class="center"><view class="title">{{'Shop Name:'+item.title+''}}</view><view class="address">{{'Shop Address:'+item.address+''}}</view><view class="tel">{{'shop Tel:'+item.tel+''}}</view></view></block></view>
